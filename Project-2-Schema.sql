@@ -1,6 +1,5 @@
 -- create tables
 CREATE TABLE imdb (
-id INT
 series_title VARCHAR PRIMARY KEY,
 released_year INT,
 genre VARCHAR,
@@ -28,4 +27,7 @@ SELECT imdb.title, imdb.imdb_rating, imdb.meta_score, rotten_tomatoes.critic_sco
 FROM imdb
 Join rotten_tomatoes
 ON imdb.title=rotten_tomatoes.title
+
+
+
 
