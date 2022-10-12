@@ -8,8 +8,5 @@ The greatest difficulty in this project was finding data that related to each ot
 
 We found that, unsurprisingly, production dropped during the 2015 Recession and again in 2020 during the COVID pandemic. Production levels did rise significantly in 2022. However, the dataset did not have daily values so we could not prove if a specific movie caused popcorn production to increase.
 
-<<<<<<< HEAD
+
 In both tables, we dropped dataset-specific columns. In the IMDB table, we changed column names from upper cased to lower case in order to align with the Rotten Tomatoes table.
-=======
-In both tables, we dropped dataset-specific columns. In the IMDB table, we changed column names from upper cased to lower case in order to align with the Rotten Tomatoes table. 
->>>>>>> 551f47978b21611e3f0f2ec9ea613b92cd60008c
